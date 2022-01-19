@@ -8,11 +8,11 @@ namespace Mission03.Models
 {
     public class CalculatorModel
     {
-        [Required(ErrorMessage = "An Album Title is required")]
-        //[Range(0, 100)]
+        [Required]
+        [Range(0, 100)]
         public int Assignment { get; set; }
 
-        [Required(ErrorMessage ="Hello")]
+        [Required]
         [Range(0, 100)]
         public int Group { get; set; }
 
